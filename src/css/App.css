@@ -1,0 +1,135 @@
+::root {
+  --bg-color: #021929;
+  --button-color: #2176ff;
+}
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  white-space: no-wrap;
+  user-select: none;
+}
+
+/* PRODUTS SECTION */
+.productSection {
+  width: 100%;
+  padding-inline: 25px;
+  padding-block: 30px;
+  background-color: #f0f0f0;
+}
+.productSection .badge {
+  display: inline-block;
+  color: #2176ff;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.productSection p {
+  color: #646464;
+}
+.productSection h2 {
+  font-size: 1.9rem;
+  margin-bottom: 5px;
+}
+/* CONTAINER CARDS*/
+.productSection .containerCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.productSection .containerCard .cardProduct {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-inline: 2px;
+  border: 1px solid #d6d6d6;
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.884);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+.contentImage {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 200px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+  background-color: #f8f8f8;
+}
+.bullePromo {
+  color: #fff;
+  position: absolute;
+  display: block;
+  right: 0;
+  top: 0;
+  margin-right: 5px;
+  margin-top: 5px;
+  padding: 3px 5px;
+  font-weight: 700;
+  border-radius: 5px;
+  background-color: #369a00;
+}
+.contentImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 5px;
+}
+.infoProduct {
+  margin-inline: 10px;
+}
+h3 {
+  margin-bottom: 10px;
+}
+h4 {
+  color: #2176ff;
+  margin-bottom: 15px;
+  font-size: 1.6rem;
+}
+
+.cardProduct a {
+  width: 50%;
+  color: #2176ff;
+  display: block;
+  font-weight: 600;
+  padding-block: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border: 1px solid #2176ff;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* FOOTER */
+footer {
+  color: #fff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-inline: 20px;
+  padding-block: 20px;
+  background-color: #021929;
+}
+footer img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+footer p:last-child {
+  color: #949292;
+}
+footer ul li {
+  margin-bottom: 10px;
+}
+footer a {
+  color: #fff;
+}

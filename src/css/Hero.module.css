@@ -1,0 +1,29 @@
+.heroSection {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+  margin-top: 70px;
+  text-align: center;
+  background-color: #021929;
+}
+h1 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+p {
+  color: #ddd;
+  margin-bottom: 30px;
+}
+.badgeWelcomeMessage {
+  color: #2176ff;
+  display: inline-block;
+  padding: 3px 5px;
+  margin-bottom: 20px;
+  font-weight: 800;
+  border-radius: 5px;
+  border: 1px solid #4184ef;
+  background-color: #a0c4ff;
+}
